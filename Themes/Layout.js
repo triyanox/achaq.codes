@@ -46,7 +46,7 @@ const Layout = (props) => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="theme-color" content="#000000" />
       </Head>
-      <div className="bg-white dark:bg-black py-12">
+      <div className=" scroll-smooth py-12">
         <ThemeProvider>
           <Background>
             <ActiveProvider>

@@ -11,7 +11,6 @@ const Layout = (props) => {
   return (
     <div>
       <Head>
-        <html lang="en" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

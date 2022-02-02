@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <section className="mt-16 container flex flex-col items-center md:flex-row  justify-center">
       <div className="md:w-full  px-5  mx-auto flex items-center sm:flex-row flex-col">
-        <a className="flex font-medium items-center md:justify-start justify-center">
+        <div className="flex font-medium items-center md:justify-start justify-center">
           <span className=" text-2xl text-gray-600 dark:text-gray-400">
             Achaq Codes
           </span>
-        </a>
+        </div>
       </div>
       <div className="mt-4 md:mt-0 flex flex-row justify-center items-center gap-4">
         <Link href="https://www.linkedin.com/in/achaqdev/" passHref>

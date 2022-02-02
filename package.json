@@ -16,6 +16,7 @@
     "@sendgrid/mail": "^7.6.0",
     "@tailwindcss/typography": "^0.5.1",
     "autoprefixer": "^10.4.2",
+    "dotenv": "^15.0.0",
     "framer-motion": "^6.2.3",
     "next": "12.0.10",
     "nextjs-progressbar": "^0.0.13",

@@ -25,7 +25,7 @@ function ContactForm() {
           !
         </h3>
       </div>
-      <div className="flex flex-col justify-center items-center mt-4 px-auto">
+      <div className="flex flex-col justify-center items-center mt-8 px-auto">
         <form
           name="contactus"
           method="POST"

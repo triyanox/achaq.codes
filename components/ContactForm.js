@@ -41,7 +41,7 @@ function ContactForm() {
           <input
             name="cname"
             type="text"
-            className="w-80 text-xl p-5 h-12  text-white dark:text-black mt-2  focus:outline-none focus:shadow-outline   rounded-md  bg-gray-800 dark:bg-gray-200 broder shadow-md"
+            className="w-80 text-xl p-5 h-12  text-white dark:text-black mt-4  focus:outline-none focus:shadow-outline   rounded-md  bg-gray-800 dark:bg-gray-200 broder shadow-md"
             required
           />
 
@@ -51,7 +51,7 @@ function ContactForm() {
           <input
             name="cemail"
             type="email"
-            className="w-80 text-xl p-5  h-12 text-white dark:text-black mt-2  focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md shadow-md"
+            className="w-80 text-xl p-5  h-12 text-white dark:text-black mt-4  focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md shadow-md"
             required
           />
 
@@ -60,7 +60,7 @@ function ContactForm() {
           </span>
           <textarea
             name="cmessage"
-            className="w-80 text-xl h-28  p-5 text-white dark:text-black  mt-2 focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md  resize-none shadow-md"
+            className="w-80 text-xl h-28  p-5 text-white dark:text-black  mt-4 focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md  resize-none shadow-md"
             required
           ></textarea>
 
@@ -68,7 +68,7 @@ function ContactForm() {
             aria-label="submit"
             type="primary"
             htmlType="submit"
-            className="mt-6 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
+            className="mt-8 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
           >
             <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">
               Send A Message

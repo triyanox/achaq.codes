@@ -15,7 +15,7 @@ function Header() {
                 Home
               </a>
             </Link>
-            <Link href="/#projects">
+            <Link href="/projects">
               <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center ">
                 Projects
               </a>

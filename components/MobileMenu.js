@@ -21,7 +21,7 @@ function MobileMenu() {
               Home
             </a>
           </Link>
-          <Link href="/#projects">
+          <Link href="/projects">
             <a
               onClick={() => setActive(active === false ? true : false)}
               className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text active:scale-90 "

@@ -45,7 +45,7 @@ function ContactForm() {
             required
           />
 
-          <span className="mt-8  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
+          <span className="mt-4  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
             Email
           </span>
           <input
@@ -55,7 +55,7 @@ function ContactForm() {
             required
           />
 
-          <span className="mt-8  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
+          <span className="mt-4  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
             Message
           </span>
           <textarea
@@ -67,7 +67,7 @@ function ContactForm() {
           <button
             type="primary"
             htmlType="submit"
-            className="mt-8 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
+            className="mt-6 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
           >
             <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">
               Send A Message

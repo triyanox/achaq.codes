@@ -53,14 +53,14 @@ export default function MyModal() {
                 <div className="flex flex-col justify-center items-center">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-600 dark:text-gray-400"
+                    className="text-lg font-medium leading-6 text-gray-400 dark:text-gray-600"
                   >
-                    Message Sent
+                    Email Copied
                   </Dialog.Title>
                   <div className="mt-4">
                     <p className="text-sm text-gray-300 dark:text-gray-500 text-center">
-                      Thank you so much for your message ! I will get back to
-                      you Soon 😊 !
+                      Thank you so much for your time ! I'm looking forward to
+                      hear from you 😊 !
                     </p>
                   </div>
 
@@ -71,7 +71,7 @@ export default function MyModal() {
                       className="inline-flex justify-center px-4 py-2 text-sm font-medium bg-gray-200 dark:bg-gray-800 border border-transparent rounded-md active:scale-110 transition-all duration-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     >
                       <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">
-                        Got it, thanks!
+                        Awesome !
                       </p>
                     </button>
                   </div>

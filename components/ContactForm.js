@@ -77,6 +77,7 @@ function ContactForm() {
             aria-label="submit"
             type="primary"
             htmlType="submit"
+            onClick={openModal}
             className="mt-8 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
           >
             <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">

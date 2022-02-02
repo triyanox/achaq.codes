@@ -13,6 +13,13 @@ const Layout = (props) => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="theme-color" content="Black" />
+        <meta
+          name="description"
+          content="Full Stack Developer Based In Morocco"
+        />
+        <meta name="author" content="Achaq Codes" />
         <meta
           property="og:site_name"
           content={props.siteName}

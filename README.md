@@ -5,7 +5,7 @@
 - Framework: [NextJS](https://nextjs.org)
 - Styling: [TailwindCSS](https://tailwindcss.com/)
 - Animations: [Framer Motion](https://www.framer.com/motion/)
-- Deployment: [Netlify](https://netlify.com/)
+- Deployment: [Vercel](https://vercel.com/)
 
 ## Project Structure :
 

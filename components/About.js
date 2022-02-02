@@ -11,8 +11,8 @@ const About = () => {
           Welcome to my Portfolio !
         </h1>
         <h2 className="text-gray-800 dark:text-gray-300 mb-2">
-          I&apos;m Mohamed Achaq and I&apos;m full-stack developer,UI/UX
-          designer from Morocco!
+          I&apos;m Mohamed Achaq and I&apos;m full-stack developer, UI/UX
+          designer and Artist from Morocco!
         </h2>
         <p className="text-sm lg:text-md text-gray-600 dark:text-gray-400">
           Everyday is a marathon to learn programming to figure out how things

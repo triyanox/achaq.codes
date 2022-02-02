@@ -32,6 +32,7 @@ function Header() {
             </Link>
           </div>
           <button
+            aria-label="Menu Switch"
             onClick={() => setActive(active === false ? true : false)}
             className="w-full bg-transparent dark:bg-transparent  backdrop-blur-xl visible lg:hidden text-gray-800 dark:text-gray-300 "
           >

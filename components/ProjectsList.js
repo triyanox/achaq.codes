@@ -53,14 +53,14 @@ function Projects() {
                 <div className="flex flex-row mt-4 items-center text-2xl gap-2 text-gray-800 dark:text-gray-300">
                   <Link key={project.id} href={`${project.source}`} passHref>
                     <a target="_blank">
-                      <button>
+                      <button aria-label="Source Code">
                         <SiGithub />
                       </button>
                     </a>
                   </Link>
                   <Link key={project.id} href={`${project.preview}`} passHref>
                     <a target="_blank">
-                      <button>
+                      <button aria-label="Preview">
                         <HiEye />
                       </button>
                     </a>

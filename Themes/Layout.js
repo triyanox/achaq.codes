@@ -6,10 +6,12 @@ import { ThemeProvider } from "./ThemeContext";
 import { ActiveProvider } from "../components/ActiveContext";
 import { IsOpenProvider } from "../components/OpenContext";
 import Footer from "../components/Footer";
+
 const Layout = (props) => {
   return (
     <div>
       <Head>
+        <html lang="en" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -65,6 +65,7 @@ function ContactForm() {
           ></textarea>
 
           <button
+            aria-label="submit"
             type="primary"
             htmlType="submit"
             className="mt-6 py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"

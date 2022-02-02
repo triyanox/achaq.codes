@@ -29,11 +29,11 @@ const TechStack = () => {
         <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
           Technologies and Tools I use{" "}
         </h1>
-        <h3 className="text-gray-400 dark:text-gray-400 ">
+        <h3 className="text-gray-600 dark:text-gray-400 ">
           In terms of tools and technologies, software developement never been
           easy than before!
         </h3>
-        <h3 className="text-gray-400 dark:text-gray-400 mb-2 ">
+        <h3 className="text-gray-600 dark:text-gray-400 mb-2 ">
           And those are tools and technologies I&apos;m good at :
         </h3>
       </div>

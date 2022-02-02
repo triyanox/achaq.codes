@@ -20,7 +20,7 @@ function ContactForm() {
         <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
           Contact Me
         </h1>
-        <h3 className="text-gray-400 dark:text-gray-400 mb-2 text-center">
+        <h3 className="text-gray-600 dark:text-gray-400 mb-2 text-center">
           If you find your self down here don&apos;t hesitate to leave a message
           !
         </h3>
@@ -35,7 +35,7 @@ function ContactForm() {
         >
           <input type="hidden" name="form-name" value="contactus" />
 
-          <span className=" text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
+          <span className=" text-center mx-auto  text-gray-600 dark:text-gray-400 text-md">
             Full Name
           </span>
           <input
@@ -45,7 +45,7 @@ function ContactForm() {
             required
           />
 
-          <span className="mt-4  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
+          <span className="mt-4  text-center mx-auto  text-gray-600 dark:text-gray-400 text-md">
             Email
           </span>
           <input
@@ -55,7 +55,7 @@ function ContactForm() {
             required
           />
 
-          <span className="mt-4  text-center mx-auto  text-gray-400 dark:text-gray-400 text-md">
+          <span className="mt-4  text-center mx-auto  text-gray-600 dark:text-gray-400 text-md">
             Message
           </span>
           <textarea

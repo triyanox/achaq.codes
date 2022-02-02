@@ -53,7 +53,7 @@ export default function MyModal() {
                 <div className="flex flex-col justify-center items-center">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-400 dark:text-gray-800"
+                    className="text-lg font-medium leading-6 text-gray-600 dark:text-gray-400"
                   >
                     Message Sent
                   </Dialog.Title>

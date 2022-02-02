@@ -22,8 +22,8 @@ function Projects() {
         <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
           Featured Projects
         </h1>
-        <h3 className="text-gray-400 dark:text-gray-400 mb-2">
-          Check ou my projects !
+        <h3 className="text-gray-600 dark:text-gray-400 mb-2">
+          Check out my projects !
         </h3>
       </div>
       <motion.div variants={stagger}>

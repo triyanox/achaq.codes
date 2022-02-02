@@ -11,7 +11,7 @@ const Footer = () => {
     <section className="mt-16 container flex flex-col items-center md:flex-row  justify-center">
       <div className="md:w-full  px-5  mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex font-medium items-center md:justify-start justify-center">
-          <span className=" text-2xl bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
+          <span className=" text-2xl text-gray-600 dark:text-gray-400">
             Achaq Codes
           </span>
         </a>

@@ -44,7 +44,7 @@ const MusicComponent = () => {
           <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
             Discography
           </h1>
-          <h3 className="text-gray-400 dark:text-gray-400 mb-2">
+          <h3 className="text-gray-600 dark:text-gray-400 mb-2">
             All my music out there !
           </h3>
         </div>
@@ -55,7 +55,7 @@ const MusicComponent = () => {
           <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
             My Playlists
           </h1>
-          <h3 className="text-gray-400 dark:text-gray-400 mb-2">
+          <h3 className="text-gray-600 dark:text-gray-400 mb-2">
             Check out my playlists for great electronic music !
           </h3>
         </div>

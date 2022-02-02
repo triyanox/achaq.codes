@@ -11,22 +11,22 @@ function Header() {
         <nav className="bg-opacity-90 dark:bg-opacity-90 backdrop-blur-xl p-3 flex items-center flex-row px-8 mx-2 lg:mx-12 rounded-3xl h-12">
           <div className=" w-full bg-transparent dark:bg-transparent lg:inline-flex backdrop-blur-xl hidden lg:visible">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 pt-12 lg:pb-0 lg:pt-0 text-gray-800 dark:text-gray-300  items-centertext-opacity-80justify-center  ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 pt-12 lg:pb-0 lg:pt-0 text-gray-800 dark:text-gray-300  items-centertext-opacity-80justify-center active:scale-90 duration-500 ">
                 Home
               </a>
             </Link>
             <Link href="/projects">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center active:scale-90 duration-500">
                 Projects
               </a>
             </Link>
             <Link href="/contact">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8  lg:pb-0  text-gray-800 dark:text-gray-300  items-center justify-center ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8  lg:pb-0  text-gray-800 dark:text-gray-300  items-center justify-center active:scale-90 duration-500">
                 Contact
               </a>
             </Link>
             <Link href="/music">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0   text-gray-800 dark:text-gray-300  items-center justify-center ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0   text-gray-800 dark:text-gray-300  items-center justify-center active:scale-90 duration-500">
                 Music
               </a>
             </Link>

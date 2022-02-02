@@ -18,7 +18,7 @@ const MusicComponent = () => {
 
         <div className=" flex items-center flex-col mt-8 p-1">
           <Image
-            className="rounded-full shadow-xl"
+            className="rounded-full"
             src={Achaq}
             width={200}
             height={200}

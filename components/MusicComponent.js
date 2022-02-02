@@ -15,9 +15,6 @@ const MusicComponent = () => {
             Music
           </h1>
         </div>
-        <div className="absolute top-16 -left-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
-        <div className="absolute top-8 -right-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
-        <div className="absolute -bottom-8 left-4 w-72 h-72 bg-purple-800  rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
 
         <div className=" flex items-center flex-col mt-8">
           <Image

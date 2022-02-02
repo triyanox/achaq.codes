@@ -1,8 +1,8 @@
-import DC from "../assets/playlists/Dance Chill.png";
-import DH from "../assets/playlists/Deep House.png";
-import SM from "../assets/playlists/Sharp & Melted.png";
-import SH from "../assets/playlists/Slap House.png";
-import TS from "../assets/playlists/Triyanox Selects.png";
+import DC from "../assets/playlists/DanceChill.png";
+import DH from "../assets/playlists/DeepHouse.png";
+import SM from "../assets/playlists/SharpMelted.png";
+import SH from "../assets/playlists/SlapHouse.png";
+import TS from "../assets/playlists/TriyanoxSelects.png";
 
 export const playlists = [
   {

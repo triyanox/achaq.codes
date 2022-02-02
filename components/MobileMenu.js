@@ -10,7 +10,7 @@ function MobileMenu() {
   return (
     <>
       {active ? (
-        <div className="w-full z-50 h-screen fixed bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-40 backdrop-blur-xl pt-12 flex justify-center items-center flex-col m-0 top-0 bottom-0 overflow-y-hidden transition duration-500">
+        <div className="w-full z-50 h-screen fixed bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 backdrop-blur-xl pt-12 flex justify-center items-center flex-col m-0 top-0 bottom-0 overflow-y-hidden transition duration-500">
           <Header />
 
           <Link href="/">

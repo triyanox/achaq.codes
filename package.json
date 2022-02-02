@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@headlessui/react": "^1.4.3",
+    "@sendgrid/mail": "^7.6.0",
     "@tailwindcss/typography": "^0.5.1",
     "autoprefixer": "^10.4.2",
     "framer-motion": "^6.2.3",

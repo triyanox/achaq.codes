@@ -11,6 +11,18 @@ function ContactForm() {
   function openModal() {
     setIsOpen(true);
   }
+  async function handleOnSubmit(e) {
+    e.preventDefault();
+    const formData = {};
+    Array.from(e.currentTarget.elements).forEach((field) => {
+      if (!field.name) return;
+      formData[field.name] = field.value;
+    });
+    fetch("api/mail", {
+      method: "post",
+      body: JSON.stringify(formData),
+    });
+  }
   return (
     <section
       id="contact"
@@ -28,18 +40,15 @@ function ContactForm() {
       <div className="flex flex-col justify-center items-center mt-8 px-auto">
         <form
           name="contactus"
-          method="POST"
-          data-netlify="true"
-          action={openModal}
+          method="post"
+          onSubmit={handleOnSubmit}
           className="  flex  flex-col items-center "
         >
-          <input type="hidden" name="form-name" value="contactus" />
-
           <span className=" text-center mx-auto  text-gray-600 dark:text-gray-400 text-md">
             Full Name
           </span>
           <input
-            name="cname"
+            name="name"
             type="text"
             className="w-80 text-xl p-5 h-12  text-white dark:text-black mt-4  focus:outline-none focus:shadow-outline   rounded-md  bg-gray-800 dark:bg-gray-200 broder shadow-md"
             required
@@ -49,7 +58,7 @@ function ContactForm() {
             Email
           </span>
           <input
-            name="cemail"
+            name="email"
             type="email"
             className="w-80 text-xl p-5  h-12 text-white dark:text-black mt-4  focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md shadow-md"
             required
@@ -59,7 +68,7 @@ function ContactForm() {
             Message
           </span>
           <textarea
-            name="cmessage"
+            name="message"
             className="w-80 text-xl h-28  p-5 text-white dark:text-black  mt-4 focus:outline-none focus:shadow-outline  bg-gray-800 dark:bg-gray-200  rounded-md  resize-none shadow-md"
             required
           ></textarea>

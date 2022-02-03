@@ -32,7 +32,7 @@ const Song = ({ song }) => (
     description={song.songName}
     siteName="Achaq Codes"
   >
-    <div className="container px-12 lg:px-24 flex justify-center items-center  flex-col mt-8 lg:mt-2">
+    <div className="container px-12 lg:px-24 flex justify-center items-center  flex-col mt-8 lg:mt-2 mb-24">
       <div className="mt-12">
         <Image
           className="rounded-xl shadow-xl"

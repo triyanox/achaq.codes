@@ -32,20 +32,17 @@ const Layout = (props) => {
           content={props.description}
           key="ogdesc"
         />
-             <meta name="keywords" content="HTML, CSS, JavaScript, React, Typescript, NodeJs, Python">
-               <!-- Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://achaq.codes/">
-<meta property="og:title" content="Welcome to my Portfolio !">
-<meta property="og:description" content="Full Stack Developer Based In Morocco">
-<meta property="og:image" content="/achaqcodes.png">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://achaq.codes/">
-<meta property="twitter:title" content="Welcome to my Portfolio !">
-<meta property="twitter:description" content="Full Stack Developer Based In Morocco">
-<meta property="twitter:image" content="/achaqcodes.png">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React, Typescript, NodeJs, Python"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://achaq.codes/"/>
+        <meta property="og:title" content="Welcome to my Portfolio !"/>
+        <meta property="og:description" content="Full Stack Developer Based In Morocco"/>
+        <meta property="og:image" content="/achaqcodes.png"/>
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://achaq.codes/"/>
+        <meta property="twitter:title" content="Welcome to my Portfolio !"/>
+        <meta property="twitter:description" content="Full Stack Developer Based In Morocco"/>
+        <meta property="twitter:image" content="/achaqcodes.png"/>
                
         <title>{props.pageTitle}</title>
         <link

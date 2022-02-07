@@ -31,10 +31,10 @@ function Projects() {
           {projectsdata.map((project) => (
             <motion.div
               key={project.id}
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               transition={{
-                duration: 0.2,
+                duration: 0.5,
               }}
               className="flex w-full justify-center items-center "
             >

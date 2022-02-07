@@ -1,6 +1,6 @@
 export const projectsdata = [
   {
-    id: 0,
+    id: "Promodoro Clock",
     title: "Promodoro Clock",
     description: "25 + 5 NextJS Clock",
     source: "https://github.com/triyanox/Promodoro-Clock",
@@ -8,7 +8,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 1,
+    id: "Markdown Previwer",
     title: "Markdown Previwer",
     description: "Preview Your Markdown With This App",
     source: "https://github.com/triyanox/nextJS-Markdown-Previewer",
@@ -16,7 +16,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 2,
+    id: "Calculator",
     title: "Calculator",
     description: "NextJS Calculator",
     source: "https://github.com/triyanox/NextJS-Calculator",
@@ -24,7 +24,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 3,
+    id: "Roman Numbers Converter",
     title: "Roman Numbers Converter",
     description: "Convert Numbers To Romanic Form",
     source: "https://github.com/triyanox/react-roman-numbers-converter",
@@ -32,7 +32,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 4,
+    id: "808 Drum Machine",
     title: "808 Drum Machine",
     description: "NextJS Launch Pad",
     source: "https://github.com/triyanox/nextJS-Launchpad",
@@ -40,7 +40,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 5,
+    id: "Random Quotes Generator",
     title: "Random Quotes Generator",
     description: "NextJS Random Quotes Generator",
     source: "https://github.com/triyanox/nextJS-Random-Quotes-Generator",
@@ -48,7 +48,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "Css"],
   },
   {
-    id: 6,
+    id: "Vector Hamza",
     title: "Vector Hamza",
     description: "Art Gallery",
     source: "https://github.com/triyanox/Vector-Hamza",
@@ -56,7 +56,7 @@ export const projectsdata = [
     stack: ["Javascript", "NextJS", "TailwindCss"],
   },
   {
-    id: 7,
+    id: "Godigi",
     title: "Godigi",
     description: "Digital Marketing Agency",
     source: "https://github.com/triyanox/Godigi-NextJs",

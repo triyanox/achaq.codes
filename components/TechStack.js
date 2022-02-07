@@ -24,7 +24,7 @@ import {
 } from "react-icons/si";
 const TechStack = () => {
   return (
-    <section className="container px-12 lg:px-24 flex flex-col justify-center  mt-2">
+    <section className="container h-full px-12 lg:px-24 flex flex-col justify-center  mt-4">
       <div className="relative flex justify-start items-start flex-col flex-1  ">
         <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
           Technologies and Tools I use{" "}

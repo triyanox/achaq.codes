@@ -1,13 +1,5 @@
 export const projectsdata = [
   {
-    id: "Arithmetic Formatter",
-    title: "Arithmetic Formatter",
-    description: "Arithmetic Formatter In Python",
-    source: "https://github.com/triyanox/Arithmetic-Formatter",
-    preview: "https://replit.com/@triyanox/boilerplate-arithmetic-formatter-1",
-    stack: ["Python"],
-  },
-  {
     id: "Promodoro Clock",
     title: "Promodoro Clock",
     description: "25 + 5 NextJS Clock",

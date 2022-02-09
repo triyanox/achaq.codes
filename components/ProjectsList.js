@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const stagger = {
   animate: {
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.4,
     },
   },
 };
@@ -34,7 +34,7 @@ function Projects() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{
-                duration: 0.5,
+                duration: 0.7,
               }}
               className="flex w-full justify-center items-center "
             >

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Link from "next/link";
 const Certification = () => {
   return (
@@ -12,12 +11,7 @@ const Certification = () => {
         </h3>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2  gap-1 lg:gap-2 justify-center items-center px-auto mt-8">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="flex w-full justify-center items-center "
-        >
+        <div className="flex w-full justify-center items-center ">
           <Link
             href="https://www.freecodecamp.org/certification/achaq/responsive-web-design"
             passHref
@@ -34,13 +28,8 @@ const Certification = () => {
               </h3>
             </a>
           </Link>
-        </motion.div>
-        <motion.div
-         initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="flex w-full justify-center items-center "
-        >
+        </div>
+        <div className="flex w-full justify-center items-center ">
           <Link
             href="https://www.freecodecamp.org/certification/achaq/javascript-algorithms-and-data-structures"
             passHref
@@ -53,18 +42,13 @@ const Certification = () => {
                 JavaScript Algorithms and Data Structures
               </h1>
               <h3 className="mb-2 text-gray-800 dark:text-gray-300">
-                FreeCodeCamp 2022
+                FreeCodeCamp 2021
               </h3>
             </a>
           </Link>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="flex w-full justify-center items-center "
-        >
+        <div className="flex w-full justify-center items-center ">
           <Link
             href="https://www.freecodecamp.org/certification/achaq/front-end-development-libraries"
             passHref
@@ -81,7 +65,25 @@ const Certification = () => {
               </h3>
             </a>
           </Link>
-        </motion.div>
+        </div>
+        <div className="flex w-full justify-center items-center ">
+          <Link
+            href="https://www.freecodecamp.org/certification/achaq/scientific-computing-with-python-v7"
+            passHref
+          >
+            <a
+              target="_blank"
+              className="cursor-pointer p-6 max-w-sm  rounded-xl  w-96 h-25  hover:scale-110 transition-all duration-500 active:scale-90 "
+            >
+              <h1 className=" text-md  tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
+                Scientific Computing with Python
+              </h1>
+              <h3 className="mb-2 text-gray-800 dark:text-gray-300">
+                FreeCodeCamp 2022
+              </h3>
+            </a>
+          </Link>
+        </div>
       </div>
     </section>
   );

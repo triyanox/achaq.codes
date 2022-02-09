@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Layout
-        pageTitle="Music"
+        pageTitle="Music | Achaq Codes"
         description="Achaq Portfolio"
         siteName="Achaq Codes"
       >

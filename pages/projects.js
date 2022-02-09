@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Layout
-        pageTitle="Projects"
+        pageTitle="Projects | Achaq Codes"
         description="Achaq Portfolio"
         siteName="Achaq Codes"
       >

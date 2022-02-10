@@ -27,7 +27,7 @@ function Projects() {
         </h3>
       </div>
       <motion.div variants={stagger}>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto mx-8">
           {projectsdata.map((project) => (
             <motion.div
               key={project.id}

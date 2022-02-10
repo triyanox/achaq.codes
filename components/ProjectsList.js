@@ -36,9 +36,9 @@ function Projects() {
               transition={{
                 duration: 0.7,
               }}
-              className="flex w-full justify-center items-center "
+              className="flex w-full justify-center items-center rounded-lg p-1  bg-gradient-to-r p-1 from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] "
             >
-              <div className=" p-6 max-w-sm w-full h-25 rounded-lg p-1  bg-gradient-to-r p-1 from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+              <div className=" p-6 max-w-sm w-full h-25 ">
                 <h1 className="text-md  tracking-tight  bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
                   {project.title}{" "}
                 </h1>

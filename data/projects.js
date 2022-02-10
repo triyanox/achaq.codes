@@ -10,7 +10,7 @@ export const projectsdata = [
   {
     id: "Markdown Previwer",
     title: "Markdown Previwer",
-    description: "Preview Your Markdown With This App",
+    description: "Preview Markdown Input",
     source: "https://github.com/triyanox/React-Markdown-Previewer",
     preview: "https://next-markdown-previewer.netlify.app/",
     stack: ["Javascript", "NextJS", "Css"],

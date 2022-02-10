@@ -2,15 +2,6 @@ import { projectsdata } from "../data/projects";
 import { SiGithub } from "react-icons/si";
 import { HiEye } from "react-icons/hi";
 import Link from "next/link";
-import { motion } from "framer-motion";
-
-const stagger = {
-  animate: {
-    transition: {
-      staggerChildren: 0.4,
-    },
-  },
-};
 
 function Projects() {
   return (
@@ -26,16 +17,11 @@ function Projects() {
           Check out my projects !
         </h3>
       </div>
-      <motion.div variants={stagger}>
+      <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto px-8">
           {projectsdata.map((project) => (
-            <motion.div
+            <div
               key={project.id}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{
-                duration: 0.7,
-              }}
               className="flex   justify-center items-center rounded-lg  "
             >
               <div className=" p-6 w-full max-w-sm rounded-lg h-25 ">
@@ -67,10 +53,10 @@ function Projects() {
                   </Link>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }

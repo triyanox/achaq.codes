@@ -27,8 +27,8 @@ const About = () => {
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-purple-800  rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
           <Image
             src={dev}
-            width={422,4}
-            height={364,8}
+            width={528}
+            height={456}
             alt="Developer"
           />
         </div>

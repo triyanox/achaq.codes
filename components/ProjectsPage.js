@@ -7,7 +7,7 @@ function Projects() {
   return (
      <section
       id="contact"
-      className="container h-screen px-12 lg:px-24  flex-col mt-8 lg:mt-12 "
+      className="container px-12 lg:px-24  flex-col mt-8 lg:mt-12 "
     >
       <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4 ">
         <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">

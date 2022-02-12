@@ -2,42 +2,29 @@ import { projectsdata } from "../data/projects";
 import { SiGithub } from "react-icons/si";
 import { HiEye } from "react-icons/hi";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
-const stagger = {
-  animate: {
-    transition: {
-      staggerChildren: 0.4,
-    },
-  },
-};
-function ProjectsPage() {
+function Projects() {
   return (
     <section
-      id="contact"
-      className="container px-12 lg:px-24 flex justify-center items-center flex-col mt-8 lg:mt-12 mb-4"
+      id="projects"
+      className="container px-12 lg:px-24 flex flex-col justify-center  mt-12 mb-20  scroll-mt-20"
     >
-      <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4 ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
-          Projects
+      <div className="relative flex justify-start items-start flex-col flex-1  ">
+        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
+          Featured Projects
         </h1>
-        <h3 className="text-gray-600 dark:text-gray-400 mb-2 text-center">
-          All my projects and other projects to come !
+        <h3 className="text-gray-600 dark:text-gray-400 mb-2">
+          Check out my projects !
         </h3>
       </div>
-      <motion.div variants={stagger}>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto mt-8">
+      <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto px-8">
           {projectsdata.map((project) => (
-            <motion.div
+            <div
               key={project.id}
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              transition={{
-                duration: 0.2,
-              }}
-              className="flex w-full justify-center items-center "
+              className="flex   justify-center items-center rounded-lg  "
             >
-              <div className=" p-6 max-w-sm w-full h-25 rounded-lg">
+              <div className=" p-6 w-full max-w-sm rounded-lg h-25 ">
                 <h1 className="text-md  tracking-tight  bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
                   {project.title}{" "}
                 </h1>
@@ -66,12 +53,12 @@ function ProjectsPage() {
                   </Link>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }
 
-export default ProjectsPage;
+export default Projects;

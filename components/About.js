@@ -6,9 +6,10 @@ const About = () => {
       id="about"
       className="container h-screen px-12 lg:px-24 flex justify-center items-center flex-col-reverse lg:flex-row mt-8 lg:-mt-2 "
     >
-      <div className="relative flex justify-start items-start flex-col flex-1  ">
+     
+      <div className="relative mt-8 md:mt-0 flex justify-start items-start flex-col flex-1  ">
         <h1 className="font-bold text-2xl md:text-4xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
-          Welcome to my Portfolio !
+          Welcome to my Portfolio
         </h1>
         <h2 className="text-gray-800 text-md md:text-2xl dark:text-gray-300 mb-2">
           I&apos;m Mohamed Achaq and I&apos;m{" "}

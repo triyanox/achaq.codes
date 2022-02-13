@@ -18,7 +18,7 @@ function Projects() {
           !
         </h3>
       </div>
-   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto px-8">
+   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-8 mb-12 lg:gap-2 justify-center items-center px-auto px-8">
           {projectsdata.map((project) => (
             <div
               key={project.id}

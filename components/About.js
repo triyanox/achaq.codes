@@ -19,11 +19,11 @@ const About = () => {
           <span className="underline  decoration-purple-800 decoration-2">
             UI/UX designer
           </span>{" "}
-          <span>and</span>
+          <span>and&nbsp;</span>
           <span className="underline  decoration-green-500 decoration-2">
-            &nbsp;Artist&nbsp;
+            Artist
           </span>
-          from Morocco !
+          &nbsp;from Morocco !
         </h2>
         <p className="text-sm lg:text-md text-gray-600 dark:text-gray-400">
           Everyday is a marathon to learn programming to figure out how things

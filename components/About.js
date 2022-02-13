@@ -7,10 +7,10 @@ const About = () => {
       className="container h-screen px-12 lg:px-24 flex justify-center items-center flex-col-reverse lg:flex-row mt-8 lg:-mt-2 "
     >
       <div className="relative flex justify-start items-start flex-col flex-1  ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
+        <h1 className="font-bold text-2xl md:text-4xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
           Welcome to my Portfolio !
         </h1>
-        <h2 className="text-gray-800 dark:text-gray-300 mb-2">
+        <h2 className="text-gray-800 text-md md:text-2xl dark:text-gray-300 mb-2">
           I&apos;m Mohamed Achaq and I&apos;m full-stack developer, UI/UX
           designer and Artist from Morocco!
         </h2>
@@ -25,12 +25,7 @@ const About = () => {
           <div className="absolute top-0 -left-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
           <div className="absolute top-0 -right-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-purple-800  rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
-          <Image
-            src={dev}
-            width={528}
-            height={456}
-            alt="Developer"
-          />
+          <Image src={dev} width={528} height={456} alt="Developer" />
         </div>
       </div>
     </section>

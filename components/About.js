@@ -21,7 +21,7 @@ const About = () => {
           </span>{" "}
           <span>and</span>
           <span className="underline  decoration-cyan-800 decoration-2">
-            Artist
+            &nbsp;Artist&nbsp;
           </span>
           from Morocco !
         </h2>

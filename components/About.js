@@ -20,7 +20,7 @@ const About = () => {
             UI/UX designer
           </span>{" "}
           <span>and</span>
-          <span className="underline  decoration-cyan-800 decoration-2">
+          <span className="underline  decoration-green-500 decoration-2">
             &nbsp;Artist&nbsp;
           </span>
           from Morocco !

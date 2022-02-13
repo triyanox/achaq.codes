@@ -19,7 +19,7 @@ const About = () => {
           <span className="underline  decoration-purple-800 decoration-2">
             UI/UX designer
           </span>{" "}
-          and
+          <span>and</span>
           <span className="underline  decoration-cyan-800 decoration-2">
             Artist
           </span>

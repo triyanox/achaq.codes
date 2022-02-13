@@ -29,7 +29,6 @@ const About = () => {
             src={dev}
             width={528}
             height={456}
-           
             alt="Developer"
           />
         </div>

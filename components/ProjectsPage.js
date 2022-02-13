@@ -5,20 +5,20 @@ import Link from "next/link";
 
 function Projects() {
   return (
-    <section
-      id="projects"
-      className="container px-12 lg:px-24 flex flex-col justify-center  mt-12 mb-20  scroll-mt-20"
+     <section
+      id="contact"
+      className="container px-12 lg:px-24  flex-col mt-8 lg:mt-12 "
     >
-      <div className="relative flex justify-start items-start flex-col flex-1  ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-cyan-500 to-purple-800 top-0 text-transparent bg-clip-text">
-          Featured Projects
+      <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4 ">
+        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
+          Projects
         </h1>
-        <h3 className="text-gray-600 dark:text-gray-400 mb-2">
-          Check out my projects !
+        <h3 className="text-gray-600 dark:text-gray-400 mb-2 text-center">
+          All my projects
+          !
         </h3>
       </div>
-      <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto px-8">
+   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-2 justify-center items-center px-auto px-8">
           {projectsdata.map((project) => (
             <div
               key={project.id}
@@ -56,7 +56,6 @@ function Projects() {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 }

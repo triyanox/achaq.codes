@@ -12,14 +12,14 @@ const About = () => {
         </h1>
         <h2 className="text-gray-800 text-md md:text-2xl dark:text-gray-300 mb-2">
           I&apos;m Mohamed Achaq and I&apos;m{" "}
-          <span className="underline decoration-2 decoration-cyan-500">
+          <span className="underline  decoration-cyan-500 decoration-2">
             full-stack developer
           </span>
           ,{" "}
-          <span className="underline decoration-2 decoration-purple-800">
+          <span className="underline  decoration-purple-800 decoration-2">
             UI/UX designer
           </span>
-          <span className="underline decoration-2 decoration-cyan-800">
+          <span className="underline  decoration-cyan-800 decoration-2">
             and Artist from Morocco
           </span>
           !

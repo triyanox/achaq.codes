@@ -40,7 +40,7 @@ const BlogLayout = (props) => {
         <meta property="twitter:url" content={props.link} />
         <meta property="twitter:title" content={props.title} />
         <meta property="twitter:description" content={props.description} />
-        <meta property="twitter:image" content={props.thumbnailUrl} />
+        <meta property="twitter:image:src" content={props.thumbnailUrl} />
 
         <title>{props.pageTitle}</title>
         <link

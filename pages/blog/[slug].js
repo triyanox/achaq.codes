@@ -43,6 +43,7 @@ export const getStaticProps = async ({ params: { slug } }) => {
 
 const PostPage = ({
   frontMatter: {
+    link,
     tags,
     thumbnailUrl,
     title,
@@ -62,6 +63,7 @@ const PostPage = ({
       title={title}
       author={author}
       tags={tags}
+      link={`https://achaq.codes/blog/${link}`}
     >
       <article className="mx-auto mt-16 px-8 mb-20 prose lg:prose-md dark:prose-invert">
         <div className="flex flex-col items-start mt-12">

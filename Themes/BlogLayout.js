@@ -31,13 +31,13 @@ const BlogLayout = (props) => {
         <meta name="description" content={props.description} />
 
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://achaq.codes/" />
+        <meta property="og:url" content={props.link} />
         <meta property="og:title" content={props.title} />
         <meta property="og:description" content={props.description} />
         <meta property="og:image" content={props.thumbnailUrl} />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://achaq.codes/" />
+        <meta property="twitter:url" content={props.link} />
         <meta property="twitter:title" content={props.title} />
         <meta property="twitter:description" content={props.description} />
         <meta property="twitter:image" content={props.thumbnailUrl} />

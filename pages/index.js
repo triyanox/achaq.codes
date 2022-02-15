@@ -1,6 +1,5 @@
 import About from "../components/About";
 import Certification from "../components/Certifications";
-import Projects from "../components/ProjectsList";
 import TechStack from "../components/TechStack";
 import Layout from "../Themes/Layout";
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
         <About />
         <TechStack />
         <Certification />
-        <Projects />
       </Layout>
     </>
   );

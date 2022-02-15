@@ -2,11 +2,37 @@ import { projectsdata } from "../data/projects";
 import { SiGithub } from "react-icons/si";
 import { HiEye } from "react-icons/hi";
 import Link from "next/link";
+import { motion } from "framer-motion";
+
+let easing = [0.6, -0.05, 0.01, 0.99];
+const fadeInUp = {
+  initial: {
+    y: 60,
+    opacity: 0,
+    transition: { duration: 0.6, ease: easing },
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      ease: easing,
+    },
+  },
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
 
 function Projects() {
   return (
-     <section
-      id="contact"
+    <section
+      id="projects"
       className="container px-12 lg:px-24  flex-col mt-8 lg:mt-12 "
     >
       <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4 ">
@@ -14,13 +40,17 @@ function Projects() {
           Projects
         </h1>
         <h3 className="text-gray-600 dark:text-gray-400 mb-2 text-center">
-          All my projects
-          !
+          All my projects and experiments !
         </h3>
       </div>
-   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-8 mb-12 lg:gap-2 justify-center items-center px-auto px-8">
+      <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
+        <motion.div
+          variants={stagger}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mt-8 mb-12 lg:gap-2 justify-center items-center px-auto px-8"
+        >
           {projectsdata.map((project) => (
-            <div
+            <motion.div
+              variants={fadeInUp}
               key={project.id}
               className="flex   justify-center items-center rounded-lg  "
             >
@@ -53,9 +83,10 @@ function Projects() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

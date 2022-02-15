@@ -29,9 +29,8 @@ const MusicComponent = () => {
         <div className="relative flex justify-start items-center flex-col mt-8 ">
           <p className="text-gray-600 dark:text-gray-400 text-center mt-4 mb-8">
             My name is Mohamed Achaq and I&apos;m a music producer and sound
-            designer from Morocco 🇲🇦 ! I make various styles of music like
-            future house, deep house, future bass ... Check out my tracks and
-            enjoy !
+            designer from Morocco ! I make various styles of music like future
+            house, deep house, future bass ... Check out my tracks and enjoy !
           </p>
           <ArtistLinks />
         </div>

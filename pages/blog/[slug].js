@@ -7,6 +7,8 @@ import Layout from "../../Themes/Layout";
 import Image from "next/image";
 import Achaq from "../../assets/achaq.png";
 import highlighter from "../../components/SyntaxHighlighter";
+import Head from "next/head";
+import Imagecomponent from "../../components/ImageComponent";
 
 export const getStaticPaths = async () => {
   const files = fs.readdirSync(path.join("posts"));
@@ -42,12 +44,28 @@ export const getStaticProps = async ({ params: { slug } }) => {
 };
 
 const PostPage = ({
-  frontMatter: { title, description, date, author, readTime },
+  frontMatter: { thumbnailUrl, title, description, date, author, readTime },
   mdxSource,
 }) => {
   return (
     <Layout pageTitle={title} description={description} siteName="Achaq Codes">
-      <article className="mx-auto mt-16 px-8 mb-20 prose lg:prose-md dark:prose-invert ">
+      <Head>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
+
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://achaq.codes/" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={thumbnailUrl} />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://achaq.codes/" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={thumbnailUrl} />
+      </Head>
+      <article className="mx-auto mt-16 px-8 mb-20 prose lg:prose-md dark:prose-invert">
         <div className="flex flex-col items-start mt-12">
           <h1 className="text-2xl text-satrt bg-gradient-to-r from-green-500 to-purple-800  text-transparent bg-clip-text">
             {title}
@@ -75,7 +93,10 @@ const PostPage = ({
             </div>
           </div>
         </div>
-        <MDXRemote {...mdxSource} components={{ highlighter }} />
+        <MDXRemote
+          {...mdxSource}
+          components={{ highlighter, Imagecomponent }}
+        />
       </article>
     </Layout>
   );

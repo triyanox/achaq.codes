@@ -43,7 +43,10 @@ const Layout = (props) => {
           property="og:description"
           content="Full Stack Developer Based In Morocco"
         />
-        <meta property="og:image" content="/achaqcodes.png" />
+        <meta
+          property="og:image"
+          content="https://achaq.codes/achaqcodes.png"
+        />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://achaq.codes/" />
         <meta property="twitter:title" content="Welcome to my Portfolio !" />

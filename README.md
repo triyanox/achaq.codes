@@ -6,6 +6,7 @@
 - Styling: [TailwindCSS](https://tailwindcss.com/)
 - Animations: [Framer Motion](https://www.framer.com/motion/)
 - Deployment: [Vercel](https://vercel.com/)
+- content: [MDX](https://mdxjs.com/)
 
 ## Project Structure :
 
@@ -22,6 +23,11 @@
 `styles/` : global styles .
 
 `themes/` : theme providers and layouts .
+
+`posts/` : mdx blog posts .
+
+`pages/blog` : blog posts slug .
+
 
 ## Runing the project locally :
 

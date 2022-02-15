@@ -37,10 +37,14 @@ const BlogLayout = (props) => {
         <meta property="og:image" content={props.thumbnailUrl} />
 
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ac__haq" />
         <meta name="twitter:url" content={props.link} />
         <meta name="twitter:title" content={props.title} />
         <meta name="twitter:description" content={props.description} />
-        <meta name="twitter:image" content={props.thumbnailUrl} />
+        <meta
+          name="twitter:image"
+          content={`https://achaq.codes/${props.thumbnailUrl}`}
+        />
 
         <title>{props.pageTitle}</title>
         <link

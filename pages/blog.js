@@ -28,7 +28,7 @@ export default function Blog({ posts }) {
             {posts.map((post, index) => (
               <Link href={"/blog/" + post.slug} passHref key={index}>
                 <div className="w-full cursor-pointer">
-                  <h1 className="text-xl md:text-2xl text-satrt bg-gradient-to-r from-green-500 to-purple-800  text-transparent bg-clip-text mb-2">
+                  <h1 className="text-xl md:text-2xl text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text mb-2">
                     {post.frontMatter.title}
                   </h1>
                   <div className="text-sm md:text-lg text-satrt text-gray-800 dark:text-gray-100 mb-8">

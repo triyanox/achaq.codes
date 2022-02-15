@@ -6,7 +6,7 @@
 - Styling: [TailwindCSS](https://tailwindcss.com/)
 - Animations: [Framer Motion](https://www.framer.com/motion/)
 - Deployment: [Vercel](https://vercel.com/)
-- content: [MDX](https://mdxjs.com/)
+- Content: [MDX](https://mdxjs.com/)
 
 ## Project Structure :
 

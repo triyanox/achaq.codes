@@ -32,6 +32,13 @@ function MobileMenu() {
             </Link>
           </div>
           <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text  transition-opacity	 duration-600  ">
+            <Link href="/blog">
+              <a onClick={() => setActive(active === false ? true : false)}>
+                Blog
+              </a>
+            </Link>
+          </div>
+          <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text  transition-opacity	 duration-600  ">
             <Link href="/music">
               <a onClick={() => setActive(active === false ? true : false)}>
                 Music

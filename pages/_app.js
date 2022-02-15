@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps, router }) {
       animate="pageAnimate"
       transition={{ duration: 1 }}
       variants={{ pageInitial: { opacity: 0 }, pageAnimate: { opacity: 1 } }}
-      exitBeforeEnter
     >
       <NextNProgress height={3} color="#6B21A8" />
       <Component {...pageProps} />

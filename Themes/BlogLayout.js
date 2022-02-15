@@ -36,7 +36,7 @@ const BlogLayout = (props) => {
         <meta property="og:description" content={props.description} />
         <meta
           property="og:image"
-          content={`https://achaq.codes/${props.thumbnailUrl}`}
+          content={`https://achaq.codes${props.thumbnailUrl}`}
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -46,7 +46,7 @@ const BlogLayout = (props) => {
         <meta name="twitter:description" content={props.description} />
         <meta
           name="twitter:image"
-          content={`https://achaq.codes/${props.thumbnailUrl}`}
+          content={`https://achaq.codes${props.thumbnailUrl}`}
         />
 
         <title>{props.pageTitle}</title>

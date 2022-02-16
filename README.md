@@ -16,7 +16,9 @@
 
 `pages/` : all the static pages .
 
-`pages/songs/` : Static pre-rendered tracks pages .
+`pages/music/` : Static pre-rendered tracks pages .
+
+`pages/blog/` : Static pre-rendered blog articles .
 
 `public/` : other static assets .
 

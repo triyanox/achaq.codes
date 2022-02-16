@@ -36,7 +36,7 @@ export default function Blog({ posts }) {
                     <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ">
                       {post.frontMatter.date}
                     </span>
-                    <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ml-2">
+                    <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ml-4">
                       {post.frontMatter.readTime + " min read"}
                     </span>
                   </div>

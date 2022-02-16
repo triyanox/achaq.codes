@@ -25,7 +25,7 @@ export default function Blog({ posts }) {
           </div>
 
           <div className="grid grid-cols-1  gap-4 mx-2 mt-8 justify-center items-start p-4 ">
-            {posts.reverse().map((post, index) => (
+            {posts.map((post, index) => (
               <Link href={"/blog/" + post.slug} passHref key={index}>
                 <div className="w-full cursor-pointer">
                   <h1 className="text-xl md:text-2xl text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text mb-2">

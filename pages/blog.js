@@ -24,17 +24,17 @@ export default function Blog({ posts }) {
             </h3>
           </div>
 
-          <div className="grid grid-cols-1  gap-4 mx-2 mt-8 justify-center items-start p-4 ">
+          <div className="grid grid-cols-1  gap-4 mx-8 mt-8 justify-center items-start p-6 ">
             {posts.sort(
       (a, b) =>
         Number(new Date(b.frontMatter.date)) - Number(new Date(a.frontMatter.date))
     ).map((post, index) => (
               <Link href={"/blog/" + post.slug} passHref key={index}>
                 <div className="w-full cursor-pointer">
-                  <h1 className="text-xl md:text-2xl text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text mb-2">
+                  <h1 className="text-md md:text-lg text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text mb-2">
                     {post.frontMatter.title}
                   </h1>
-                  <div className="text-sm md:text-lg text-satrt text-gray-800 dark:text-gray-100 mb-8">
+                  <div className="text-sm md:text-md text-satrt text-gray-800 dark:text-gray-100 mb-8">
                     <p>{post.frontMatter.description}</p>
                     <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ">
                       {post.frontMatter.date}

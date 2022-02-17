@@ -4,7 +4,7 @@ import songs from "../data/songs";
 
 const Discography = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 justify-center items-center gap-6 mt-8 px-auto lg:mx-10">
+    <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 justify-center items-center gap-6 mt-8  lg:mx-10">
       {songs.map((song) => (
         <div
           key={song.id}

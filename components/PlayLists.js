@@ -5,7 +5,7 @@ import { playlists } from "../data/playlists";
 const PlayList = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 justify-center items-center gap-6 mt-8 px-auto lg:mx-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 justify-center items-center gap-6 mt-8  lg:mx-10">
         {playlists.map((playlist) => (
           <div
             key={playlist.id}
@@ -16,8 +16,8 @@ const PlayList = () => {
                 <Image
                   className="rounded-xl shadow-xl"
                   src={playlist.image}
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   alt={playlist.name}
                 />
               </a>

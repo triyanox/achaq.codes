@@ -19,8 +19,8 @@ const Discography = () => {
             <Image
               className="rounded-xl shadow-xl"
               src={song.image}
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               alt={song.songName}
             />
           </Link>

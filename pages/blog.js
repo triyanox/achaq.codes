@@ -62,7 +62,10 @@ export const getStaticProps = async () => {
       frontMatter,
       slug: filename.split(".")[0],
     };
-  });
+  }).sort(
+      (a, b) =>
+        Number(new Date(b.date)) - Number(new Date(a.date))
+    );
   return {
     props: {
       posts,

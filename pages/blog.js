@@ -27,7 +27,7 @@ export default function Blog({ posts }) {
           <div className="grid grid-cols-1  gap-4 mx-2 mt-8 justify-center items-start p-4 ">
             {posts.sort(
       (a, b) =>
-        Number(new Date(b.date)) - Number(new Date(a.date))
+        Number(new Date(b.frontMatter.date)) - Number(new Date(a.frontMatter.date))
     ).map((post, index) => (
               <Link href={"/blog/" + post.slug} passHref key={index}>
                 <div className="w-full cursor-pointer">

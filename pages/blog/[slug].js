@@ -65,7 +65,7 @@ const PostPage = ({
       tags={tags}
       link={`https://achaq.codes/blog/${link}`}
     >
-      <article className="mx-auto mt-16 px-2 mb-20 prose lg:prose-md dark:prose-invert">
+      <article className="mx-auto mt-16 px-8 lg:px-2 mb-20 prose lg:prose-md dark:prose-invert">
         <div className="flex flex-col items-start mt-12">
           <h1 className="text-2xl text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
             {title}

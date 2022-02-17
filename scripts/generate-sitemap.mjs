@@ -6,8 +6,8 @@ async function generate() {
   const prettierConfig = await prettier.resolveConfig("./.prettierrc.js");
   const pages = await globby([
     "pages/*.js",
-    "data/**/*.mdx",
-    "!data/*.mdx",
+    "posts/*.mdx",
+    "!data/*.js",
     "!pages/_*.js",
     "!pages/api",
     "!pages/404.js",
@@ -20,7 +20,7 @@ async function generate() {
           .map((page) => {
             const path = page
               .replace("pages", "")
-              .replace("data", "")
+              .replace("posts", "")
               .replace(".js", "")
               .replace(".mdx", "");
             const route = path === "/index" ? "" : path;

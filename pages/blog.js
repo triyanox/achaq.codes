@@ -24,7 +24,7 @@ export default function Blog({ posts }) {
             </h3>
           </div>
 
-          <div className="grid grid-cols-1  gap-4 mx-8 mt-8 justify-center items-start p-6 ">
+          <div className="grid grid-cols-1  gap-4 md:mx-4 lg:mx-8 mt-8 justify-center items-start p-6 ">
             {posts.sort(
       (a, b) =>
         Number(new Date(b.frontMatter.date)) - Number(new Date(a.frontMatter.date))
@@ -35,7 +35,7 @@ export default function Blog({ posts }) {
                     {post.frontMatter.title}
                   </h1>
                   <div className="text-sm md:text-md text-satrt text-gray-800 dark:text-gray-100 mb-8">
-                    <p>{post.frontMatter.description}</p>
+                    <p className="mb-2">{post.frontMatter.description}</p>
                     <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ">
                       {post.frontMatter.date}
                     </span>

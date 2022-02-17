@@ -32,7 +32,7 @@ const About = () => {
           softwere developer !
         </p>
       </div>
-      <div className="relative flex justify-center items-center lg:flex-1 mt-4 mb-8">
+      <div className="relative flex justify-center items-center lg:flex-1 mt-12 md:mt-4 mb-8">
         <div className="flex justify-center items-center rounded-full  ">
           <div className="absolute top-0 -left-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>
           <div className="absolute top-0 -right-4 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply  filter blur-xl opacity-70 animate-pulse"></div>

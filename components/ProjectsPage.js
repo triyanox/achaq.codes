@@ -1,7 +1,6 @@
 import { projectsdata } from "../data/projects";
 import { motion } from "framer-motion";
-import ProjectCard from "./Projectcard";
-
+import ProjectCard from "./ProjectCard";
 let easing = [0.6, -0.05, 0.01, 0.99];
 const fadeInUp = {
   initial: {

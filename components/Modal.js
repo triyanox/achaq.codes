@@ -53,7 +53,7 @@ export default function MyModal() {
                 <div className="flex flex-col justify-center items-center">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-400 dark:text-gray-600"
+                    className="text-lg font-medium leading-6 text-gray-600 dark:text-gray-600"
                   >
                     Email Copied
                   </Dialog.Title>
@@ -70,7 +70,7 @@ export default function MyModal() {
                       type="button"
                       className="inline-flex justify-center px-4 py-2 text-sm font-medium bg-gray-200 dark:bg-gray-800 border border-transparent rounded-md active:scale-110 transition-all duration-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     >
-                      <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">
+                      <p className="bg-gradient-to-r from-[#007CF0] to-[#00DFD8]  text-transparent bg-clip-text">
                         Awesome !
                       </p>
                     </button>

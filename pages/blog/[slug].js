@@ -67,7 +67,7 @@ const PostPage = ({
     >
       <article className="mx-auto mt-16 px-8 lg:px-2 mb-20 prose lg:prose-md dark:prose-invert">
         <div className="flex flex-col items-start mt-12">
-          <h1 className="text-2xl text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
+          <h1 className="text-2xl text-satrt text-[#007CF0] dark:text-[#00DFD8]">
             {title}
           </h1>
           <div className="text-xs md:text-sm text-satrt text-gray-800 dark:text-gray-100 mb-12 flex justify-between gap-8 w-full px-2">

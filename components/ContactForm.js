@@ -26,7 +26,7 @@ function ContactForm() {
       className="container h-screen px-12 lg:px-24  flex-col mt-8 lg:mt-12 "
     >
       <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4 ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
+        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-[#007CF0] to-[#00DFD8]  text-transparent bg-clip-text">
           Contact Me
         </h1>
         <h3 className="text-gray-600 dark:text-gray-400 mb-2 text-center">
@@ -39,7 +39,7 @@ function ContactForm() {
           This is my email !
         </h3>
         <div className="mt-8  flex  flex-col md:flex-row items-center justify-center gap-4 ">
-          <div className="select-none w-80 text-xl p-5 h-12  text-white dark:text-black   focus:outline-none focus:shadow-outline   rounded-md  bg-gray-800 dark:bg-gray-200 broder shadow-md flex justify-center items-center">
+          <div className="select-none w-80 text-xl p-5 h-12  text-[#00DFD8]   dark:text-[#007CF0] focus:outline-none focus:shadow-outline   rounded-md  bg-gray-800 dark:bg-gray-200 broder shadow-md flex justify-center items-center">
             motriyanox@gmail.com
           </div>
 
@@ -48,7 +48,7 @@ function ContactForm() {
             onClick={handleCopy}
             className=" py-3 px-6 hover:scale-110 transition-all duration-500 active:scale-90 bg-gray-800 dark:bg-gray-200 mx-auto  rounded-md  text-md shadow-xl"
           >
-            <p className="bg-gradient-to-r from-cyan-500 to-purple-400  text-transparent bg-clip-text">
+            <p className="bg-gradient-to-r from-[#007CF0] to-[#00DFD8]  text-transparent bg-clip-text">
               Copy My Email
             </p>
           </button>

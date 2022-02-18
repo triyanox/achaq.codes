@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import Link from "next/link";
 import Layout from "../Themes/Layout";
+import BlogPrev from "../components/BlogPrev";
 export default function Blog({ posts }) {
   return (
     <Layout
@@ -12,11 +13,11 @@ export default function Blog({ posts }) {
     >
       <section
         id="Blog"
-        className="container px-12 lg:px-24  flex justify-center items-center flex-col mt-8 lg:mt-12 mb-4 "
+        className="container px-8 lg:px-16  flex justify-center items-center flex-col mt-8 lg:mt-12 mb-4 "
       >
         <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4  ">
           <div className=" flex justify-start items-center flex-col ">
-            <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text">
+            <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-[#007CF0] to-[#00DFD8]  text-transparent bg-clip-text">
               Blog
             </h1>
             <h3 className="text-gray-400 dark:text-gray-400 mb-2 text-center">
@@ -24,28 +25,26 @@ export default function Blog({ posts }) {
             </h3>
           </div>
 
-          <div className="grid grid-cols-1  gap-4 md:mx-4 lg:mx-8 mt-8 justify-center items-start p-6 ">
-            {posts.sort(
-      (a, b) =>
-        Number(new Date(b.frontMatter.date)) - Number(new Date(a.frontMatter.date))
-    ).map((post, index) => (
-              <Link href={"/blog/" + post.slug} passHref key={index}>
-                <div className="w-full cursor-pointer">
-                  <h1 className="text-md md:text-lg text-satrt bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text mb-2">
-                    {post.frontMatter.title}
-                  </h1>
-                  <div className="text-sm md:text-md text-satrt text-gray-800 dark:text-gray-100 mb-8">
-                    <p className="mb-2">{post.frontMatter.description}</p>
-                    <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ">
-                      {post.frontMatter.date}
-                    </span>
-                    <span className="text-sm text-satrt text-gray-800 dark:text-gray-300 ml-4">
-                      {post.frontMatter.readTime + " min read"}
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-2 lg:gap-4 md:mx-4 lg:mx-8 mt-8 justify-center items-start  ">
+            {posts
+              .sort(
+                (a, b) =>
+                  Number(new Date(b.frontMatter.date)) -
+                  Number(new Date(a.frontMatter.date))
+              )
+              .map((post, index) => (
+                <Link href={"/blog/" + post.slug} passHref key={index}>
+                  <a>
+                    <BlogPrev
+                      title={post.frontMatter.title}
+                      description={post.frontMatter.description}
+                      image={post.frontMatter.thumbnailUrl}
+                      date={post.frontMatter.date}
+                      readTime={post.frontMatter.readTime}
+                    />
+                  </a>
+                </Link>
+              ))}
           </div>
         </div>
       </section>
@@ -65,7 +64,7 @@ export const getStaticProps = async () => {
       frontMatter,
       slug: filename.split(".")[0],
     };
-  })
+  });
   return {
     props: {
       posts,

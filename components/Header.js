@@ -30,11 +30,7 @@ function Header() {
                 Blog
               </a>
             </Link>
-            <Link href="/music">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0   text-gray-800 dark:text-gray-300  items-center justify-center active:scale-90 duration-500">
-                Music
-              </a>
-            </Link>
+           
           </div>
           <button
             aria-label="Menu Switch"

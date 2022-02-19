@@ -7,7 +7,7 @@ import BlogPrev from "../components/BlogPrev";
 export default function Blog({ posts }) {
   return (
     <Layout
-      pageTitle="Blog"
+      pageTitle="Blog - Mohamed Achaq"
       description="Blog Page for Achaq Codes"
       siteName="Achaq Codes"
     >

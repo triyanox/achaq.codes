@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <Layout
-        pageTitle="Contact | Achaq Codes"
+        pageTitle="Contact"
         description="Contact Page for Achaq Codes"
         siteName="Achaq Codes"
       >

@@ -72,13 +72,14 @@ const PostPage = ({
           </h1>
           <div className="text-xs md:text-sm text-satrt text-gray-800 dark:text-gray-100 mb-12 flex justify-between gap-8 w-full px-2">
             <div className="flex flex-row justify-center">
-              <Image
+            <span><Image
                 className="rounded-full aspect-square"
                 src={Achaq}
                 width={20}
                 height={20}
                 alt="Mohamed Achaq"
-              />
+              /></span>
+              
               <span className="text-satrt text-gray-800 dark:text-gray-300 ml-4">
                 {author}
               </span>

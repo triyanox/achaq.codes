@@ -16,8 +16,6 @@
 
 `pages/` : all the static pages .
 
-`pages/music/` : Static pre-rendered tracks pages .
-
 `pages/blog/` : Static pre-rendered blog articles .
 
 `public/` : other static assets .
@@ -30,6 +28,7 @@
 
 `pages/blog` : blog posts slug .
 
+`scripts/` : dynamic sitemap generator .
 
 ## Runing the project locally :
 

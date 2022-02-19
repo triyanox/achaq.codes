@@ -32,6 +32,8 @@ async function generate() {
             return `
               <url>
                   <loc>${`https://achaq.codes${route}`}</loc>
+                  <lastmod>${new Date().toISOString()}</lastmod>
+                  <priority>1.0</priority>
               </url>
             `;
           })

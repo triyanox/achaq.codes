@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Layout
-        pageTitle="Home | Achaq Codes"
+        pageTitle="Mohamed Achaq - Developer, Designer and Artist"
         description="Mohamed Achaq Full Stack Developer Based in Morocco"
         siteName="Achaq Codes"
       >

@@ -26,7 +26,7 @@ const TechStack = () => {
   return (
     <section className="container h-full px-12 lg:px-24 flex flex-col justify-center  mt-16">
       <div className="relative flex justify-start items-start flex-col flex-1  ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2  bg-gradient-to-r from-[#007CF0] to-[#00DFD8] text-transparent bg-clip-text">
+        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2  text-[#007CF0] dark:text-[#00DFD8]">
           Technologies and Tools I use{" "}
         </h1>
         <h3 className="text-gray-600 dark:text-gray-400 ">

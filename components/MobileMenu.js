@@ -10,28 +10,28 @@ function MobileMenu() {
       {active ? (
         <div className="w-full z-50 h-screen fixed bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 backdrop-blur-xl pt-12 flex justify-center items-center flex-col m-0 top-0 bottom-0 overflow-y-hidden transition-all	 duration-500">
           <Header />
-          <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text  transition-opacity	 duration-600 ">
+          <div className="text-center text-2xl  w-full px-3 pb-8   text-[#007CF0] dark:text-[#00DFD8]  transition-opacity	 duration-600 ">
             <Link href="/">
               <a onClick={() => setActive(active === false ? true : false)}>
                 Home
               </a>
             </Link>
           </div>
-          <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text transition-opacity	 duration-600  ">
+          <div className="text-center text-2xl  w-full px-3 pb-8   text-[#007CF0] dark:text-[#00DFD8] transition-opacity	 duration-600  ">
             <Link href="/projects">
               <a onClick={() => setActive(active === false ? true : false)}>
                 Projects
               </a>
             </Link>
           </div>
-          <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text  transition-opacity	 duration-600  ">
+          <div className="text-center text-2xl  w-full px-3 pb-8   text-[#007CF0] dark:text-[#00DFD8]  transition-opacity	 duration-600  ">
             <Link href="/contact">
               <a onClick={() => setActive(active === false ? true : false)}>
                 Contact
               </a>
             </Link>
           </div>
-          <div className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text  transition-opacity	 duration-600  ">
+          <div className="text-center text-2xl  w-full px-3 pb-8   text-[#007CF0] dark:text-[#00DFD8]  transition-opacity	 duration-600  ">
             <Link href="/blog">
               <a onClick={() => setActive(active === false ? true : false)}>
                 Blog

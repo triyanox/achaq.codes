@@ -3,7 +3,7 @@ const Certification = () => {
   return (
     <section className="container px-12 lg:px-24 flex flex-col justify-center  mt-16">
       <div className="relative flex justify-start items-start flex-col flex-1  ">
-        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 bg-gradient-to-r from-[#007CF0] to-[#00DFD8] top-0 text-transparent bg-clip-text">
+        <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-2 text-[#007CF0] dark:text-[#00DFD8]">
           Certifications and Experiences{" "}
         </h1>
         <h3 className="text-gray-600 dark:text-gray-400 mb-2">

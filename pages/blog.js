@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
       >
         <div className=" flex justify-start items-center flex-col mt-0 lg:mt-4  ">
           <div className=" flex justify-start items-center flex-col ">
-            <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 bg-gradient-to-r from-[#007CF0] to-[#00DFD8]  text-transparent bg-clip-text">
+            <h1 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 text-[#007CF0] dark:text-[#00DFD8]">
               Blog
             </h1>
             <h3 className="text-gray-400 dark:text-gray-400 mb-2 text-center">

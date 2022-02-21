@@ -10,7 +10,7 @@ const Certification = () => {
           Those are all my certifications and work experinces at the moment:
         </h3>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2  gap-1 lg:gap-2 justify-center items-center w-full mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3  gap-1 lg:gap-2 justify-center items-center w-full mt-8">
         <CertificationCard
           title="Responsive Web Design"
           link="https://www.freecodecamp.org/certification/achaq/responsive-web-design"

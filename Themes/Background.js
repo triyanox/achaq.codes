@@ -1,9 +1,5 @@
 const Background = ({ children }) => {
-  return (
-    <body className="bg-white dark:bg-black transition duration-300 ">
-      {children}
-    </body>
-  );
+  return <div className="bg-white dark:bg-black">{children}</div>;
 };
 
 export default Background;

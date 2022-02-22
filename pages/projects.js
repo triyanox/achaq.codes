@@ -1,15 +1,15 @@
-import ContactForm from "../components/Contact";
+import Projects from "../components/Projects";
 import Layout from "../themes/Layout";
 
-export default function ContactPage() {
+export default function ProjectsPage() {
   return (
     <>
       <Layout
-        pageTitle="Contact - Mohamed Achaq"
+        pageTitle="Projects - Mohamed Achaq"
         description="Achaq Portfolio"
         siteName="Achaq Codes"
       >
-        <ContactForm />
+        <Projects />
       </Layout>
     </>
   );

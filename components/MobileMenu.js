@@ -2,49 +2,43 @@ import Link from "next/link";
 import Header from "./Header";
 import { useContext } from "react";
 import { ActiveContext } from "./ActiveContext";
-import { motion } from "framer-motion";
-import { AnimatePresence } from "framer-motion";
-
 function MobileMenu() {
   const [active, setActive] = useContext(ActiveContext);
+
   return (
     <>
       {active ? (
-        <div className="w-full z-50 h-screen fixed bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-40 backdrop-blur-xl pt-12 flex justify-center items-center flex-col m-0 top-0 bottom-0 overflow-y-hidden transition duration-500">
+        <div className="w-full  z-50 h-screen fixed bg-white dark:bg-black   pt-12 flex justify-center items-center flex-col m-0 top-0 bottom-0 overflow-hidden transition-all ease-in-out duration-300">
           <Header />
 
-          <Link href="/">
-            <a
-              onClick={() => setActive(active === false ? true : false)}
-              className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text active:scale-90 "
-            >
-              Home
-            </a>
-          </Link>
-          <Link href="/#projects" scrollSmooth>
-            <a
-              onClick={() => setActive(active === false ? true : false)}
-              className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text active:scale-90 "
-            >
-              Projects
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a
-              onClick={() => setActive(active === false ? true : false)}
-              className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text active:scale-90 "
-            >
-              Contact
-            </a>
-          </Link>
-          <Link href="/music">
-            <a
-              onClick={() => setActive(active === false ? true : false)}
-              className="text-center text-2xl  w-full px-3 pb-8   bg-gradient-to-r from-cyan-500 to-purple-800  text-transparent bg-clip-text active:scale-90 "
-            >
-              Music
-            </a>
-          </Link>
+          <div className="text-center text-2xl w-full  p-3 mb-8  flex flex-col justify-center   text-black dark:text-white   ">
+            <Link href="/">
+              <a onClick={() => setActive(active === false ? true : false)}>
+                Home
+              </a>
+            </Link>
+          </div>
+          <div className="text-center text-2xl  w-full p-3 mb-8   flex flex-col justify-center   text-black dark:text-white">
+            <Link href="/projects">
+              <a onClick={() => setActive(active === false ? true : false)}>
+                Projects
+              </a>
+            </Link>
+          </div>
+          <div className="text-center text-2xl  w-full p-3 mb-8    flex flex-col justify-center   text-black dark:text-white">
+            <Link href="/contact">
+              <a onClick={() => setActive(active === false ? true : false)}>
+                Contact
+              </a>
+            </Link>
+          </div>
+          <div className="text-center text-2xl  w-full p-3 mb-8    flex flex-col justify-center   text-black dark:text-white">
+            <Link href="/blog">
+              <a onClick={() => setActive(active === false ? true : false)}>
+                Blog
+              </a>
+            </Link>
+          </div>
         </div>
       ) : (
         <div />

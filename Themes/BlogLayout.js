@@ -4,9 +4,10 @@ import MobileMenu from "../components/MobileMenu";
 import Background from "./Background";
 import { ThemeProvider } from "./ThemeContext";
 import { ActiveProvider } from "../components/ActiveContext";
+
 import Footer from "../components/Footer";
 
-const Layout = (props) => {
+const BlogLayout = (props) => {
   return (
     <>
       <Head>
@@ -15,51 +16,41 @@ const Layout = (props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="theme-color" content="#000000" />
-        <meta name="robots" content="follow, index" />
-        <title>{props.pageTitle}</title>
         <meta
           name="description"
           content="Full Stack Developer Based In Morocco"
         />
-        <meta name="author" content="Mohamed Achaq" />
+        <meta name="author" content={props.author} />
         <meta
           property="og:site_name"
           content={props.siteName}
           key="ogsitename"
         />
-        <meta property="og:title" content={props.pageTitle} key="ogtitle" />
-        <meta
-          property="og:description"
-          content={props.description}
-          key="ogdesc"
-        />
-        <meta
-          name="keywords"
-          content="HTML, CSS, JavaScript, React, Typescript, NodeJs, Python"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://achaq.codes/" />
-        <meta property="og:title" content="Welcome to my Portfolio !" />
-        <meta
-          property="og:description"
-          content="Full Stack Developer Based In Morocco"
-        />
+        <meta name="keywords" content={props.tags} />
+        <meta name="title" content={props.title} />
+        <meta name="description" content={props.description} />
+
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={props.link} />
+        <meta property="og:title" content={props.title} />
+        <meta property="og:description" content={props.description} />
         <meta
           property="og:image"
-          content="https://achaq.codes/achaqcodes.png"
+          content={`https://achaq.codes${props.thumbnailUrl}`}
         />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://achaq.codes/" />
-        <meta property="twitter:title" content="Welcome to my Portfolio !" />
-        <meta property="twitter:site" content="@ac__haq" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ac__haq" />
+        <meta name="twitter:url" content={props.link} />
+        <meta name="twitter:title" content={props.title} />
+        <meta name="twitter:description" content={props.description} />
+        <meta property="article:published_time" content={props.date} />
         <meta
-          property="twitter:description"
-          content="Full Stack Developer Based In Morocco"
+          name="twitter:image"
+          content={`https://achaq.codes${props.thumbnailUrl}`}
         />
-        <meta
-          property="twitter:image"
-          content="https://achaq.codes/achaqcodes.png"
-        />
+
+        <title>{props.pageTitle}</title>
         <link
           rel="icon"
           type="image/png"
@@ -86,12 +77,12 @@ const Layout = (props) => {
           <ActiveProvider>
             <Header />
             {props.children}
-            <Footer />
             <MobileMenu />
+            <Footer />
           </ActiveProvider>
         </Background>
       </ThemeProvider>
     </>
   );
 };
-export default Layout;
+export default BlogLayout;

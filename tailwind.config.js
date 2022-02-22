@@ -2,10 +2,10 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./Themes/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class",
   theme: {
+    extend: {},
     container: {
       center: true,
 
@@ -17,9 +17,6 @@ module.exports = {
         "2xl": "6rem",
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require("@tailwindcss/typography")],
 };

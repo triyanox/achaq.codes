@@ -1,21 +1,18 @@
 import About from "../components/About";
-import Certification from "../components/Certifications";
-import Projects from "../components/ProjectsList";
-import TechStack from "../components/TechStack";
-import Layout from "../Themes/Layout";
+import Certifications from "../components/Certifications";
+import Intro from "../components/Intro";
+import Layout from "../themes/Layout";
+
 export default function Home() {
   return (
-    <>
-      <Layout
-        pageTitle="Home"
-        description="Achaq Portfolio"
-        siteName="Achaq Codes"
-      >
-        <About />
-        <TechStack />
-        <Certification />
-        <Projects />
-      </Layout>
-    </>
+    <Layout
+      pageTitle="Mohamed Achaq - Developer, Designer and Artist"
+      description="Mohamed Achaq Full Stack Developer Based in Morocco"
+      siteName="Achaq Codes"
+    >
+      <Intro />
+      <About />
+      <Certifications />
+    </Layout>
   );
 }

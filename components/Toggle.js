@@ -10,6 +10,7 @@ const Toggle = () => {
     <motion.div whileTap={{ scale: 0.7 }} transition={{ duration: 0.3 }}>
       {theme === "dark" ? (
         <button
+       aria-label="Light Theme"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="text-black dark:text-white text-2xl cursor-pointer active:rotate-90 transition-all duration-500"
         >
@@ -17,6 +18,7 @@ const Toggle = () => {
         </button>
       ) : (
         <button
+        aria-label="Dark Theme"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="text-black dark:text-white text-2xl cursor-pointer active:rotate-90 transition-all duration-500"
         >

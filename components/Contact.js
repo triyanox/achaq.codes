@@ -123,7 +123,7 @@ function ContactForm() {
                   </Dialog.Title>
                   <div className="mt-4">
                     <p className="text-sm text-white dark:text-black text-center">
-                      Thank you so much for your time ! I'm looking forward to
+                      Thank you so much for your time ! I&apos;m looking forward to
                       hear from you 😊 !
                     </p>
                   </div>

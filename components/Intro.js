@@ -6,7 +6,7 @@ const Intro = () => {
       <h1 className="text-3xl lg:text-5xl text-black dark:text-white mt-12 mb-8 ">
         Welcome
         <br />
-        I'm Mohamed Achaq
+        I&apos;m Mohamed Achaq
       </h1>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 justify-between text-2xl gap-8">
         <div className="flex flex-col gap-8 order-2 md:order-1">
@@ -27,13 +27,13 @@ const Intro = () => {
             &nbsp;from Morocco !
           </h2>
           <p className="text-sm">
-            <span class="mr-2 text-lg text-[#FF8552] dark:text-[#00DFD8] text-left leading-tight h-3">
+            <span className="mr-2 text-lg text-[#FF8552] dark:text-[#00DFD8] text-left leading-tight h-3">
               &ldquo;
             </span>
             Everyday is a marathon to learn programming to figure out how things
             works under the hood, to satisfy my curiosity and improve my skills
             as softwere developer !
-            <span class="ml-2 text-lg text-[#FF8552] dark:text-[#00DFD8] text-left leading-tight h-3">
+            <span className="ml-2 text-lg text-[#FF8552] dark:text-[#00DFD8] text-left leading-tight h-3">
               &rdquo;
             </span>
           </p>

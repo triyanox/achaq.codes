@@ -6,8 +6,8 @@ const Certifications = () => {
         <div className="w-full text-black dark:text-white">
           <h1 className="text-2xl mb-4 mt-4">Certifications</h1>
           <h2 className="text-lg">
-            I'm always exited to start and build new projects, and during this
-            process I've managed to collect these certifications and experiences
+            I&apos;m always exited to start and build new projects, and during this
+            process I&apos;ve managed to collect these certifications and experiences
             !
           </h2>
         </div>

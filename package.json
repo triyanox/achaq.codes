@@ -1,8 +1,9 @@
 {
   "name": "achaq.codes",
   "version": "1.0.0",
-  "description": "Achaq's portfolio",
-  "private": true,
+  "description": "Achaq's portfolio",  
+  "author": "Mohamed Achaq",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "postbuild": "node ./scripts/generate-sitemap.mjs",
@@ -10,8 +11,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "author": "Mohamed Achaq",
-  "license": "MIT",
   "dependencies": {
     "@headlessui/react": "^1.4.3",
     "framer-motion": "^6.2.3",
@@ -34,5 +33,5 @@
     "autoprefixer": "^10.4.2",    
     "@tailwindcss/typography": "^0.5.1",
     "tailwindcss": "^3.0.18"
-  }
+  },
 }

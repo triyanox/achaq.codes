@@ -23,28 +23,28 @@ const Footer = () => {
           </a>
         </Link>
         <Link href="https://instagram.com/ac.haq/" passHref>
-          <a target="_blank">
+          <a aria-label="Instagram" target="_blank">
             <h1 className="text-black dark:text-white text-2xl hover:text-pink-700 hover:dark:text-pink-700">
               <SiInstagram />
             </h1>
           </a>
         </Link>
         <Link href="https://youtube.com/c/triyanox/" passHref>
-          <a target="_blank">
+          <a aria-label="YouTube" target="_blank">
             <h1 className="text-black dark:text-white text-2xl hover:text-red-700 hover:dark:text-red-700">
               <SiYoutube />
             </h1>
           </a>
         </Link>
         <Link href="https://github.com/triyanox" passHref>
-          <a target="_blank">
+          <a aria-label="Github" target="_blank">
             <h1 className="text-black dark:text-white text-2xl hover:text-gray-900 hover:dark:text-gray-300">
               <SiGithub />
             </h1>
           </a>
         </Link>
         <Link href="https://twitter.com/ac__haq" passHref>
-          <a target="_blank">
+          <a aria-label="Twitter" target="_blank">
             <h1 className="text-black dark:text-white text-2xl hover:text-blue-500 hover:dark:text-blue-500">
               <SiTwitter />
             </h1>

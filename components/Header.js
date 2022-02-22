@@ -8,32 +8,30 @@ function Header() {
   return (
     <section className="p-2 mt-0 fixed h-12 w-full z-20 top-0  ">
       <div>
-        <nav className=" backdrop-blur-xl  firefox:bg-white firefox:dark:bg-black firefox:bg-opacity-90  p-3 flex items-center flex-row px-8 mx-2 lg:mx-12 rounded-3xl h-12">
-          <div className=" w-full lg:inline-flex  hidden lg:visible">
+        <nav className="bg-opacity-90 dark:bg-opacity-90 backdrop-blur-xl p-3 flex items-center flex-row px-8 mx-2 lg:mx-12 rounded-3xl h-12">
+          <div className=" w-full bg-transparent dark:bg-transparent lg:inline-flex backdrop-blur-xl hidden lg:visible">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center active:scale-90 duration-500">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 pt-12 lg:pb-0 lg:pt-0 text-gray-800 dark:text-gray-300  items-centertext-opacity-80justify-center  ">
                 Home
               </a>
             </Link>
-            <Link href="/projects">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center active:scale-90 duration-500">
+            <Link href="/#projects" scrollSmooth>
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0  text-gray-800 dark:text-gray-300    items-center justify-center ">
                 Projects
               </a>
             </Link>
             <Link href="/contact">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8  lg:pb-0  text-gray-800 dark:text-gray-300  items-center justify-center active:scale-90 duration-500">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8  lg:pb-0  text-gray-800 dark:text-gray-300  items-center justify-center ">
                 Contact
               </a>
             </Link>
-            <Link href="/blog">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8  lg:pb-0  text-gray-800 dark:text-gray-300  items-center justify-center active:scale-90 duration-500">
-                Blog
+            <Link href="/music">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 pb-8 lg:pb-0   text-gray-800 dark:text-gray-300  items-center justify-center ">
+                Music
               </a>
             </Link>
-           
           </div>
           <button
-            aria-label="Menu Switch"
             onClick={() => setActive(active === false ? true : false)}
             className="w-full bg-transparent dark:bg-transparent  backdrop-blur-xl visible lg:hidden text-gray-800 dark:text-gray-300 "
           >

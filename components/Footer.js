@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div className="mt-4 md:mt-0 flex flex-row justify-center items-center gap-4">
         <Link href="https://www.linkedin.com/in/achaqdev/" passHref>
-          <a target="_blank">
+          <a aria-label="Linkedin" target="_blank">
             <h1 className="text-black dark:text-white text-2xl hover:text-blue-600 hover:dark:text-blue-600 ">
               <SiLinkedin />
             </h1>

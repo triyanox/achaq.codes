@@ -5,7 +5,7 @@ import { ThemeContext } from "../themes/ThemeContext";
 import { useContext } from "react";
 
 const Highlighter =(props)=> {
-  const theme = useContext(ThemeContext);
+  const { theme, setTheme } = useContext(ThemeContext);
 
   return (
     <SyntaxHighlighter

@@ -4,7 +4,7 @@ import { coldarkCold } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { ThemeContext } from "../themes/ThemeContext";
 import { useContext } from "react";
 
-export default function highlighter (props) {
+const Highlighter =(props)=> {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
@@ -15,4 +15,5 @@ export default function highlighter (props) {
       {props.children}
     </SyntaxHighlighter>
   );
-};
+}
+export default Highlighter;

@@ -5,7 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import Image from "next/image";
 import Achaq from "../../assets/achaq.png";
-import highlighter from "../../components/SyntaxHighlighter";
+import Highlighter from "../../components/SyntaxHighlighter";
 import Imagecomponent from "../../components/ImageComponent";
 import BlogLayout from "../../themes/BlogLayout";
 export const getStaticPaths = async () => {
@@ -99,7 +99,7 @@ const PostPage = ({
         </div>
         <MDXRemote
           {...mdxSource}
-          components={{ highlighter, Imagecomponent }}
+          components={{ Highlighter, Imagecomponent }}
         />
       </article>
     </BlogLayout>

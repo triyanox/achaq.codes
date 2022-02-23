@@ -5,7 +5,7 @@ import { ActiveContext } from "./ActiveContext";
 function Header() {
   const [active, setActive] = useContext(ActiveContext);
   return (
-    <section className=" mt-0 fixed h-12 w-full z-60 top-0  ">
+    <section className=" mt-0 fixed h-12 w-full z-50 top-0  ">
       <nav className="bg-white dark:bg-black p-3 flex items-center justify-between flex-row px-12">
         <div className=" w-full lg:inline-flex  hidden lg:visible">
           <Link href="/">

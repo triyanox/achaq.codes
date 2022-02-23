@@ -44,5 +44,3 @@ $ yarn dev
 This project is under an MIT License please do not copy everything
 make some changes if you welling to publish it and don't forget to remove
 my personal infos, and a credit will be great .
-
-Blog Section coming soon ....

@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Imagecomponent(props) {
   return (
-    <div>
+    <div className="z-10">
       <Image
         className="rounded-lg"
         src={props.src}

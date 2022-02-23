@@ -66,7 +66,7 @@ const PostPage = ({
       link={`https://achaq.codes/blog/${link}`}
       date={new Date(date).toISOString()}
     >
-      <article className="mx-auto  px-8 lg:px-2 mb-20 prose lg:prose-md dark:prose-invert">
+      <article className="mx-auto z-10  px-8 lg:px-2 mb-20 prose lg:prose-md dark:prose-invert">
         <div className="flex flex-col items-start pt-20">
           <h1 className="text-2xl text-satrt text-[#FF8552] dark:text-[#00DFD8]">
             {title}

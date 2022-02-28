@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { BiCertification } from "react-icons/bi";
-import { CgChevronRight } from "react-icons/cg";
+import { BiCertification } from "react-icons/bi/index.js";
+import { CgChevronRight } from "react-icons/cg/index.js";
 const CertificationCard = (props) => {
   return (
     <div className="flex flex-col gap-1 items-start justify-center p-4">

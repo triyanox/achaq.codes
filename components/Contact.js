@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { SiLinkedin, SiInstagram, SiTwitter } from "react-icons/si";
-import { BiCopy } from "react-icons/bi";
+import { SiLinkedin, SiInstagram, SiTwitter } from "react-icons/si/index.js";
+import { BiCopy } from "react-icons/bi/index.js";
 import Link from "next/link";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
@@ -123,8 +123,8 @@ function ContactForm() {
                   </Dialog.Title>
                   <div className="mt-4">
                     <p className="text-sm text-white dark:text-black text-center">
-                      Thank you so much for your time ! I&apos;m looking forward to
-                      hear from you 😊 !
+                      Thank you so much for your time ! I&apos;m looking forward
+                      to hear from you 😊 !
                     </p>
                   </div>
 

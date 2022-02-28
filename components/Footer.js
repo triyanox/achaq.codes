@@ -4,7 +4,7 @@ import {
   SiGithub,
   SiTwitter,
   SiYoutube,
-} from "react-icons/si";
+} from "react-icons/si/index.js";
 import Link from "next/link";
 const Footer = () => {
   return (

@@ -24,8 +24,7 @@ import {
   SiD3Dotjs,
   SiNumpy,
   SiMysql,
-} from "react-icons/si";
-import { motion } from "framer-motion";
+} from "react-icons/si/index.js";
 
 const About = () => {
   return (

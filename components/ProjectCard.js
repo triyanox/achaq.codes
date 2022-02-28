@@ -1,6 +1,6 @@
-import { BsFolderFill } from "react-icons/bs";
-import { FiGithub } from "react-icons/fi";
-import { BiLinkExternal } from "react-icons/bi";
+import { BsFolderFill } from "react-icons/bs/index.js";
+import { FiGithub } from "react-icons/fi/index.js";
+import { BiLinkExternal } from "react-icons/bi/index.js";
 import Link from "next/link";
 
 const ProjectCard = (props) => {

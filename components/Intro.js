@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Intro = () => {
   return (
-    <section className="container h-screen flex justify-center flex-col items-start p-16">
+    <section className="container h-screen flex justify-center flex-col items-start px-4 lg:px-16">
       <h1 className="text-3xl lg:text-5xl text-black dark:text-white mt-12 mb-8 ">
         Welcome
         <br />

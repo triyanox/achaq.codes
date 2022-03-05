@@ -28,7 +28,7 @@ import {
 
 const About = () => {
   return (
-    <section className=" container flex justify-center items-center p-4 lg:p-12">
+    <section className=" container flex justify-center items-center px-4 lg:px-12">
       <div className="w-full grid grid-cols-1 lg:grid-cols-2  justify-between text-2xl gap-16">
         <div className="w-full text-black dark:text-white">
           <h1 className="text-2xl mb-8">Technologies and Tools I use</h1>

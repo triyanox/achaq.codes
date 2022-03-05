@@ -23,7 +23,7 @@ function ContactForm() {
   return (
     <section
       id="contact"
-      className="container h-screen px-12 justify-center items-center "
+      className="container h-screen px-4 lg:px-12 justify-center items-center "
     >
       <div className="w-full text-black dark:text-white pt-16 text-center">
         <h1 className="text-2xl mb-4">Contact</h1>

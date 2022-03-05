@@ -1,7 +1,7 @@
 import CertificationCard from "./CertificationCard";
 const Certifications = () => {
   return (
-    <section className="container p-4 lg:p-12 flex flex-col justify-center">
+    <section className="container px-4 lg:px-12 flex flex-col justify-center">
       <div className="w-full grid grid-cols-1 lg:grid-cols-2  justify-between text-2xl gap-16">
         <div className="w-full text-black dark:text-white">
           <h1 className="text-2xl mb-4 mt-4">Certifications</h1>

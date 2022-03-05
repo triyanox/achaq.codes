@@ -30,7 +30,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="container px-12 justify-center items-center  "
+      className="container px-4 lg:px-12 justify-center items-center  "
     >
       <div className="w-full text-black dark:text-white pt-16 text-center">
         <h1 className="text-2xl mb-4">Projects</h1>
